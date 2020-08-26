@@ -1,4 +1,4 @@
-# React NBA App
+# Weight Tracker App
 
 This is a website app built using React Hooks and Redux,
 The app is connected to Firebase Real-Time Database to save your weight progress.
@@ -14,7 +14,7 @@ Check the live demo hosted on firebase [here](https://playform-weight-tracker.fi
 First clone this repository.
 
 ```bash
-$ git clone https://github.com/mizrahiomer/nba.git
+$ git clone https://github.com/mizrahiomer/Weight_Tracker.git
 ```
 
 Install dependencies.
