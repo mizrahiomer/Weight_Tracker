@@ -1,0 +1,9 @@
+$border: rgb(58, 63, 71);
+$primary: #1fb66d;
+
+.chart {
+	margin: 1rem 0;
+	padding: 1rem;
+	border-top: 1px $primary solid;
+	border-bottom: 1px $border solid;
+}

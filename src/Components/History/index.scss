@@ -1,0 +1,9 @@
+.table {
+	padding: 2rem;
+	align-items: center;
+}
+@media only screen and (max-width: 768px) {
+	.table {
+		padding: 2rem 0;
+	}
+}

@@ -1,0 +1,38 @@
+$primary: #1fb66d;
+
+.card {
+	border-radius: 0.25rem;
+	border: 0.25rem solid $primary;
+	padding: 1.25rem 0;
+	font-weight: 600;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.card__title {
+	font-size: 1.25rem;
+	margin-top: 0.25rem;
+}
+
+.card__content {
+	font-size: 2.5rem;
+	.sign {
+		color: $primary;
+		padding-left: 0.5rem;
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.card {
+		border: none;
+		border-bottom: 1px solid $primary;
+	}
+	.card__content {
+		font-size: 2rem;
+		.sign {
+			padding-left: 0.25rem;
+			font-size: 1.5rem;
+		}
+	}
+}

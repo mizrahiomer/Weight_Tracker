@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import './App.scss';
+import Navbar from './Components/Navbar';
+import Main from './Components/Main';
+import History from './Components/History';
+
+import 'react-datepicker/dist/react-datepicker.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Router>
+			<div className='App'>
+				<Navbar />
+				<Switch>
+					<Route path='/' exact component={Main}></Route>
+					<Route path='/history' exact component={History}></Route>
+				</Switch>
+			</div>
+		</Router>
+	);
 }
 
 export default App;

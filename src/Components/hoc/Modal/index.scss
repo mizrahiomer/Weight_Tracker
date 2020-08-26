@@ -1,0 +1,25 @@
+$secondary: rgb(58, 63, 71);
+
+.modal {
+	border-radius: 0.25rem;
+	padding: 0.5rem;
+	background: white;
+}
+.close-btn {
+	text-align: right;
+	color: $secondary;
+	font-size: 1.5rem;
+}
+
+.modal__title {
+	font-size: 2rem;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin: 0 5rem;
+}
+
+.modal__info {
+	color: $secondary;
+	padding: 0.5rem 0;
+}

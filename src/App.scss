@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$primary: #1fb66d;
+
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	cursor: default;
+	letter-spacing: 0.05rem;
+}
+
+i {
+	cursor: pointer;
+}
+
+.react-datepicker__day--selected {
+	background-color: $primary !important;
+}
+.btn-secondary {
+	background-color: $primary !important;
+	outline: none;
+	border: none !important;
+}
+.App {
+	opacity: 0.8;
+	overflow-x: hidden;
+}
